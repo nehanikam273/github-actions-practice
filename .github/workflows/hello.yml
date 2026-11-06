@@ -8,12 +8,12 @@ on:
  # JOB TELLS WHAT THE WORKFLOW SHOULD DO , THERE CAN BE ONE OR MORE THAN ONE JOBS,HENCE WE WRITE JOBS
  # JOB IS AN OBJECTS SO NEEDS INDENTATION 
 
- jobs:
-   # 1ST JOB (GIVE INDENTATION)
-   say-hello:
-     # CREATES AN EPHERMAL CONTAINER WITH UBUNTU RUNNING
-     runs-on: ubuntu-latest
+jobs:
+  # 1ST JOB ( GIVE INDENTATION)
+  say-hello:
+    # CREATES AN EPHERMAL CONTAINER WITH UBUNTU RUNNING
+    runs-on: ubuntu-latest
      # THAT EPHERMAL CONTAINER WILL HAVE STEPS TO EXECUTE ,HENCE NAME THOSE STEPS AND USE RUN: RUN HAS THE COMMAND
-     steps:
-       - name: Say hello to everyone
-         run: echo "Hello friends"
+    steps:
+      - name: Say hello to everyone
+        run: echo "Hello friends"
